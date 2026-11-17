@@ -331,9 +331,14 @@ window.portfolio = {
       "id": "10",
       "title": "AsianMerge",
       "category": "Game showcases",
-      "description": "AsianMerge — video showcase.",
+      "description": "Area and meta-area animations, UI and effects for merge gameplay and LiveOps.",
       "tools": [],
-      "contributions": [],
+      "contributions": [
+        "Created animations for game areas and meta areas.",
+        "Integrated animations, UI and effects for gameplay and LiveOps content.",
+        "Across the Merge 2 portfolio, built an area setup tool that turned a 4-hour manual process into a one-click workflow.",
+        "Developed optimization tools across the Merge 2 workflow, improving workflow speed by almost 400%."
+      ],
       "thumbnail": "https://i.vimeocdn.com/video/2227313743-aa19d3a01a7c53a9a3ad520c492ccc5b5e8962e9c6a8d8e9bffbd79c1df7c740-d_100x75?region=us",
       "videos": [
         {
