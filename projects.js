@@ -4,46 +4,62 @@ window.portfolio = {
   "linkedin": "https://www.linkedin.com/in/bansal-vaishnav-6a2852171/",
   "projects": [
     {
-      "id": "0",
-      "title": "Call of Legends: Tower Defense",
-      "category": "Tower defense",
+      "id": "2",
+      "title": "Merge HomeTown: Merge Games",
+      "category": "Merge 3",
       "role": "Lead Technical Artist",
-      "description": "Character attacks brought to life through 2D and 3D effects, particles and optimized shaders.",
+      "description": "Responsive UI, effects and art integration for merge gameplay.",
       "tools": [
-        "Unity VFX",
-        "Particles",
+        "Unity UI",
+        "VFX",
         "Shaders"
       ],
       "contributions": [
-        "Created distinctive effects and particle systems for different character attacks.",
-        "Developed 2D and 3D effects for character attacks and combat presentation.",
-        "Created optimized VFX shaders, balancing visual quality with mobile performance."
+        "Implemented responsive Unity UI and animations for merge gameplay and supporting content.",
+        "Created and integrated VFX and shaders for in-game presentation.",
+        "Managed art integration through production tools and pipelines.",
+        "Optimized art assets and visual effects for mobile performance.",
+        "Collaborated with artists, designers, developers and QA; used AI-assisted technical-art workflows."
       ],
-      "thumbnail": "https://play-lh.googleusercontent.com/nz4cBSiLfZK_gndFVvh6TP_Oda_SXd6fBBgpCnhctOWW6gesfU2qtsxP5Zv3flAw3S0T1ABhwa1G8YnaUEJu=s0-br30",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.gamestown.tower.defense",
+      "thumbnail": "https://play-lh.googleusercontent.com/BTxW1F_ZMAgKN47e2wTZW--h6_OwgiVNS0yKP2N3oRWSu-fvzUQozidaI2Z7gAOcxfdFgF0WRNQevFEIyVhHqw=s0-br30",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.merge.hometown",
       "videos": [
         {
-          "title": "Hero level up and Enemy Shield",
-          "url": "https://www.youtube.com/watch?v=H_IIiCv2bnU"
+          "title": "Merge HomeTown: Merge Games — Showcase 1",
+          "url": "https://vimeo.com/1247517659"
         },
         {
-          "title": "Hero Summon",
-          "url": "https://www.youtube.com/watch?v=IpgFi4m4WSM"
-        },
-        {
-          "title": "Area Tour and Environment Effects",
-          "url": "https://www.youtube.com/watch?v=wpJgs6m7e1Q"
-        },
-        {
-          "title": "Hero Attacks 2",
-          "url": "https://www.youtube.com/watch?v=Ga0oDVusA3A"
-        },
-        {
-          "title": "Hero Attacks",
-          "url": "https://www.youtube.com/watch?v=Fa94OFjaFVI"
+          "title": "Merge HomeTown: Merge Games — Showcase 2",
+          "url": "https://vimeo.com/1247517657"
         }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Tales & Dragons: Merge Puzzle",
+      "category": "Merge 3",
+      "role": "Lead Technical Artist",
+      "description": "Merge-game presentation supported by responsive UI, animations and visual effects.",
+      "tools": [
+        "Unity UI",
+        "VFX",
+        "Shaders"
       ],
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLFetlfgXWXxs"
+      "contributions": [
+        "Implemented responsive Unity UI and animations for merge gameplay and supporting content.",
+        "Created and integrated VFX and shaders for in-game presentation.",
+        "Managed art integration through production tools and pipelines.",
+        "Optimized art assets and visual effects for mobile performance.",
+        "Collaborated with artists, designers, developers and QA; used AI-assisted technical-art workflows."
+      ],
+      "thumbnail": "https://play-lh.googleusercontent.com/vRNssUZPNIB1LpayQ0VUHC8U-5tw9aBRh1uuiHpLNHYG1SsghcgYYcXYdqM88r5mgwb-gG0KjbiapCXPy_z-=s0-br30",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.dragontales.mergegames",
+      "videos": [
+        {
+          "title": "Tales & Dragons: Merge Puzzle — Showcase 1",
+          "url": "https://vimeo.com/1247517909"
+        }
+      ]
     },
     {
       "id": "1",
@@ -103,85 +119,6 @@ window.portfolio = {
       ]
     },
     {
-      "id": "2",
-      "title": "Merge HomeTown: Merge Games",
-      "category": "Merge 3",
-      "role": "Lead Technical Artist",
-      "description": "Responsive UI, effects and art integration for merge gameplay.",
-      "tools": [
-        "Unity UI",
-        "VFX",
-        "Shaders"
-      ],
-      "contributions": [
-        "Implemented responsive Unity UI and animations for merge gameplay and supporting content.",
-        "Created and integrated VFX and shaders for in-game presentation.",
-        "Managed art integration through production tools and pipelines.",
-        "Optimized art assets and visual effects for mobile performance.",
-        "Collaborated with artists, designers, developers and QA; used AI-assisted technical-art workflows."
-      ],
-      "thumbnail": "https://play-lh.googleusercontent.com/BTxW1F_ZMAgKN47e2wTZW--h6_OwgiVNS0yKP2N3oRWSu-fvzUQozidaI2Z7gAOcxfdFgF0WRNQevFEIyVhHqw=s0-br30",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.merge.hometown",
-      "videos": [
-        {
-          "title": "Merge HomeTown: Merge Games — Showcase 1",
-          "url": "https://vimeo.com/1247517659"
-        },
-        {
-          "title": "Merge HomeTown: Merge Games — Showcase 2",
-          "url": "https://vimeo.com/1247517657"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Tales & Dragons: Merge Puzzle",
-      "category": "Merge 3",
-      "role": "Lead Technical Artist",
-      "description": "Merge-game presentation supported by responsive UI, animations and visual effects.",
-      "tools": [
-        "Unity UI",
-        "VFX",
-        "Shaders"
-      ],
-      "contributions": [
-        "Implemented responsive Unity UI and animations for merge gameplay and supporting content.",
-        "Created and integrated VFX and shaders for in-game presentation.",
-        "Managed art integration through production tools and pipelines.",
-        "Optimized art assets and visual effects for mobile performance.",
-        "Collaborated with artists, designers, developers and QA; used AI-assisted technical-art workflows."
-      ],
-      "thumbnail": "https://play-lh.googleusercontent.com/vRNssUZPNIB1LpayQ0VUHC8U-5tw9aBRh1uuiHpLNHYG1SsghcgYYcXYdqM88r5mgwb-gG0KjbiapCXPy_z-=s0-br30",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.dragontales.mergegames",
-      "videos": [
-        {
-          "title": "Tales & Dragons: Merge Puzzle — Showcase 1",
-          "url": "https://vimeo.com/1247517909"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "title": "Beachside Town: Merge Adventure",
-      "category": "Merge adventure",
-      "role": "Lead Technical Artist",
-      "description": "A 2D meta progression layer with animated UI, rewards and visual feedback.",
-      "tools": [
-        "UI Animation",
-        "Art Integration",
-        "Optimization"
-      ],
-      "contributions": [
-        "Supported visual implementation of the 2D meta progression layer.",
-        "Created UI animations and visual feedback for progression and rewards.",
-        "Integrated art assets and effects into the Unity production workflow.",
-        "Optimized visuals in collaboration with the development team."
-      ],
-      "thumbnail": "https://play-lh.googleusercontent.com/0NfysT5P5VG12_Ul-QihT6Zwu6TQNpxawc5FcWono06vE6KoKhFbEbWfw67-wfJF7TQJcG4jCBoDjI3PtYR5zZc=s0-br30",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.beachside.mergetown",
-      "videos": []
-    },
-    {
       "id": "5",
       "title": "Witch World: Magic Merge",
       "category": "Merge 2",
@@ -239,6 +176,69 @@ window.portfolio = {
           "url": "https://vimeo.com/1247517718"
         }
       ]
+    },
+    {
+      "id": "0",
+      "title": "Call of Legends: Tower Defense",
+      "category": "Tower defense",
+      "role": "Lead Technical Artist",
+      "description": "Character attacks brought to life through 2D and 3D effects, particles and optimized shaders.",
+      "tools": [
+        "Unity VFX",
+        "Particles",
+        "Shaders"
+      ],
+      "contributions": [
+        "Created distinctive effects and particle systems for different character attacks.",
+        "Developed 2D and 3D effects for character attacks and combat presentation.",
+        "Created optimized VFX shaders, balancing visual quality with mobile performance."
+      ],
+      "thumbnail": "https://play-lh.googleusercontent.com/nz4cBSiLfZK_gndFVvh6TP_Oda_SXd6fBBgpCnhctOWW6gesfU2qtsxP5Zv3flAw3S0T1ABhwa1G8YnaUEJu=s0-br30",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.gamestown.tower.defense",
+      "videos": [
+        {
+          "title": "Hero level up and Enemy Shield",
+          "url": "https://www.youtube.com/watch?v=H_IIiCv2bnU"
+        },
+        {
+          "title": "Hero Summon",
+          "url": "https://www.youtube.com/watch?v=IpgFi4m4WSM"
+        },
+        {
+          "title": "Area Tour and Environment Effects",
+          "url": "https://www.youtube.com/watch?v=wpJgs6m7e1Q"
+        },
+        {
+          "title": "Hero Attacks 2",
+          "url": "https://www.youtube.com/watch?v=Ga0oDVusA3A"
+        },
+        {
+          "title": "Hero Attacks",
+          "url": "https://www.youtube.com/watch?v=Fa94OFjaFVI"
+        }
+      ],
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLFetlfgXWXxs"
+    },
+    {
+      "id": "4",
+      "title": "Beachside Town: Merge Adventure",
+      "category": "Merge adventure",
+      "role": "Lead Technical Artist",
+      "description": "A 2D meta progression layer with animated UI, rewards and visual feedback.",
+      "tools": [
+        "UI Animation",
+        "Art Integration",
+        "Optimization"
+      ],
+      "contributions": [
+        "Supported visual implementation of the 2D meta progression layer.",
+        "Created UI animations and visual feedback for progression and rewards.",
+        "Integrated art assets and effects into the Unity production workflow.",
+        "Optimized visuals in collaboration with the development team."
+      ],
+      "thumbnail": "https://play-lh.googleusercontent.com/0NfysT5P5VG12_Ul-QihT6Zwu6TQNpxawc5FcWono06vE6KoKhFbEbWfw67-wfJF7TQJcG4jCBoDjI3PtYR5zZc=s0-br30",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.beachside.mergetown",
+      "videos": []
     },
     {
       "id": "7",
