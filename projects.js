@@ -62,6 +62,17 @@ window.portfolio = {
       ]
     },
     {
+      "id": "12",
+      "title": "Epic Merge: Magic Match Puzzle",
+      "category": "Merge 3",
+      "description": "A magic-themed merge puzzle game. Explore Epic Merge on Google Play.",
+      "tools": [],
+      "contributions": [],
+      "thumbnail": "https://play-lh.googleusercontent.com/jaEwOOSkhwvxiOXYjipOby-he0sK_vzXS5Yq8_0_ZYYSymzV23_z3n4rqYVG1m5_HUNu68tpgeD4-NWieAvvp8A=s0-br30",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.matchingham.mergegame&hl=en_IN",
+      "videos": []
+    },
+    {
       "id": "1",
       "title": "Merge Fever: Merge & Cook",
       "category": "Merge 2",
