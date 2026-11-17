@@ -57,3 +57,24 @@ body:has(.hero) .topbar{border-bottom-color:transparent}
 .store-name{font-size:21px;font-weight:700;line-height:1.2;white-space:nowrap}
 .store-arrow{margin-left:12px;font-size:21px;color:var(--accent)}
 .store-button:hover{background:#1a2117;border-color:var(--accent)}
+
+/* Personal introduction with two supplied photos. */
+.about-section>h2{margin-bottom:32px}
+.about-panel{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;padding:32px;border:1px solid var(--line);border-radius:16px;background:#0d1316}
+.about-content{min-width:0}
+.about-content p,.about-strengths{font-size:15px;line-height:1.9;color:#a9b1b7}
+.about-content .about-intro{font-size:17px;color:#c4cbd0;margin-top:0}
+.about-content h3{font-size:22px;color:var(--accent);margin:30px 0 16px}
+.about-content strong{color:var(--text);font-weight:800}
+.about-strengths{list-style:none;margin:0;padding:0}
+.about-strengths li{margin-bottom:20px}
+.about-recognition{border-left:2px solid var(--accent);padding-left:18px;margin-top:26px}
+.about-photos{display:flex;flex-direction:column;gap:24px;min-width:0}
+.about-photo{margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#080c0e}
+.about-photo img{display:block;width:100%;height:auto}
+.portrait-photo img{aspect-ratio:4/3;object-fit:cover;object-position:50% 0%}
+.awards-photo img{aspect-ratio:1/1;object-fit:contain}
+.about-photo figcaption{padding:15px 18px;font-size:13px;font-weight:700;line-height:1.6}
+.about-photo figcaption span{display:block;font-size:11px;font-weight:400;color:var(--muted);margin-top:3px}
+@media(max-width:900px){.about-panel{gap:25px;padding:24px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}}
+@media(max-width:700px){.about-panel{grid-template-columns:1fr;padding:22px;gap:26px}.about-content .about-intro{font-size:16px}.about-content p,.about-strengths{font-size:14px}.about-content h3{font-size:21px}.about-photo figcaption{padding:14px}}
