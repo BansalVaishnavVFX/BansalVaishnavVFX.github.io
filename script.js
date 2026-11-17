@@ -75,7 +75,32 @@ if (player) {
     document.getElementById('contributions-heading').hidden = !(project.contributions || []).length;
     const resources = document.getElementById('project-resources');
     if (project.storeUrl || project.playlistUrl) resources.append(element('h2', '', 'Explore the game'));
-    if (project.storeUrl) resources.append(externalLink('View on Google Play ↗', project.storeUrl));
+    if (project.storeUrl) {
+      const store = externalLink('', project.storeUrl);
+      store.className = 'store-button';
+      store.setAttribute('aria-label', 'View ' + project.title + ' on Google Play (opens in a new tab)');
+      const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      icon.setAttribute('viewBox', '0 0 32 36');
+      icon.setAttribute('aria-hidden', 'true');
+      icon.setAttribute('focusable', 'false');
+      for (const [points, color] of [
+        ['2,2 19,18 2,34', '#32bbff'],
+        ['2,2 24,14 19,18', '#00d26a'],
+        ['19,18 24,14 31,18 24,22', '#ffd447'],
+        ['2,34 19,18 24,22', '#ff5454']
+      ]) {
+        const shape = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+        shape.setAttribute('points', points);
+        shape.setAttribute('fill', color);
+        icon.append(shape);
+      }
+      const label = element('span', 'store-label');
+      label.append(element('span', 'store-caption', 'VIEW GAME ON'), element('span', 'store-name', 'Google Play'));
+      const arrow = element('span', 'store-arrow', '↗');
+      arrow.setAttribute('aria-hidden', 'true');
+      store.append(icon, label, arrow);
+      resources.append(store);
+    }
     if (project.playlistUrl) resources.append(externalLink('Full YouTube playlist ↗', project.playlistUrl));
     const videos = videosFor(project);
     const list = document.getElementById('video-list');

@@ -48,3 +48,12 @@
 
 /* Let the hero fade into the header without a separator line. */
 body:has(.hero) .topbar{border-bottom-color:transparent}
+
+/* Store links are accessible icon buttons across all game case studies. */
+.store-button{display:inline-flex;align-items:center;gap:14px;max-width:100%;min-height:72px;padding:14px 20px;margin:12px 0;border:1px solid #ffffff45;border-radius:12px;background:#111516;color:var(--text);text-decoration:none;transition:border-color .2s,background .2s}
+.store-button svg{width:30px;height:34px;flex-shrink:0}
+.store-label{display:flex;flex-direction:column;gap:4px}
+.store-caption{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;color:#b7babc}
+.store-name{font-size:21px;font-weight:700;line-height:1.2;white-space:nowrap}
+.store-arrow{margin-left:12px;font-size:21px;color:var(--accent)}
+.store-button:hover{background:#1a2117;border-color:var(--accent)}
