@@ -97,10 +97,17 @@ if (player) {
     });
     if (videos.length) play(videos[0], 0);
     else {
-      const empty = element('div', 'player-empty');
-      empty.append(element('span', 'empty-symbol', '◌'), element('h2', '', 'Behind the game.'), element('p', 'muted', 'Video showcase coming soon. Explore my contributions below.'));
-      player.append(empty);
+      for (const id of ['video-player', 'now-playing', 'video-list', 'video-link']) {
+        document.getElementById(id).hidden = true;
+      }
     }
+    const article = document.getElementById('project-story');
+    (project.story || []).forEach(part => {
+      const section = element('section');
+      section.append(element('h2', '', part.heading), element('p', '', part.text));
+      article.append(section);
+    });
+    article.hidden = !(project.story || []).length;
     const index = projects.indexOf(project);
     for (const [label, item] of [['← Previous project', projects[index - 1]], ['Next project →', projects[index + 1]]]) {
       if (item) { const link = element('a', 'text-link', label + ': ' + item.title); link.href = projectHref(item); document.getElementById('project-navigation').append(link); }

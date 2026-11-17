@@ -86,7 +86,21 @@ window.portfolio = {
           "url": "https://www.youtube.com/watch?v=12DaSm75DQw"
         }
       ],
-      "playlistUrl": "https://www.youtube.com/playlist?list=PLBib6IcG0HDc"
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLBib6IcG0HDc",
+      "story": [
+        {
+          "heading": "Merging meets restaurant restoration",
+          "text": "Merge Fever combines an item-merging puzzle board with a cooking story and restaurant renovation. Players help Emma progress by combining ingredients and kitchen items, fulfilling orders and opening up new possibilities for her restaurants."
+        },
+        {
+          "heading": "A town that grows with the player",
+          "text": "The puzzle board feeds into a wider restoration journey. Completing objectives unlocks improvements to restaurants and other locations, while characters and story events give those changes context. Managing board space and choosing what to merge connects short-term decisions with longer-term goals."
+        },
+        {
+          "heading": "My technical-art work",
+          "text": "My work covered area and meta-area animation, together with UI and effect integration for gameplay and LiveOps. Across the Merge 2 games, I also built production tools: a one-click area setup workflow replaced a four-hour manual process, and optimization tools improved workflow speed by almost 400%."
+        }
+      ]
     },
     {
       "id": "2",
@@ -246,7 +260,21 @@ window.portfolio = {
       ],
       "thumbnail": "https://play-lh.googleusercontent.com/2HbDQlWOE4St8Aj84saMcCDaJayNeSjt3r3OaAfN5xQkViUk1zBG-D20nL6YxAJIbQLsq0rsJUSS-aWXKJ7O-Q=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.TheAppGuruz.IndianChef",
-      "videos": []
+      "videos": [],
+      "story": [
+        {
+          "heading": "A cooking journey through Indian kitchens",
+          "text": "Indian Cooking Stars brings restaurant time-management challenges to a variety of Indian dishes and kitchen settings. Players prepare orders, coordinate cooking stations and serve customers while working toward each level’s goals."
+        },
+        {
+          "heading": "Timing, variety and progression",
+          "text": "Different kitchens introduce new menus and preparation routines. As the pace increases, players need to balance speed with accuracy. Equipment improvements, new restaurants and rewards keep the progression moving beyond an individual service."
+        },
+        {
+          "heading": "My technical-art work",
+          "text": "I set up restaurants and created their animations, implemented responsive Unity UI, and animated supporting systems and interface interactions. I also integrated particle effects and VFX into gameplay and restaurant presentation, then optimized those effects for mobile performance."
+        }
+      ]
     },
     {
       "id": "8",
@@ -268,7 +296,21 @@ window.portfolio = {
       ],
       "thumbnail": "https://play-lh.googleusercontent.com/yHLsUlLgeSNU4IDEOEqR9opWmttWRX4QhN5aiYPptuAjIrgzU64q32DhxG4pIdez8RMySp9_PP35Is0TXuqLheo=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.asiancooking.star.chef.cooking.games",
-      "videos": []
+      "videos": [],
+      "story": [
+        {
+          "heading": "Restaurant challenges across Asian cuisines",
+          "text": "Asian Cooking Stars connects a variety of Asian menus with fast-moving restaurant gameplay. Each location brings a different combination of dishes and cooking stations, giving players new routines to learn as they progress."
+        },
+        {
+          "heading": "Keeping a busy kitchen moving",
+          "text": "Players juggle preparation and serving while responding to customer orders. New recipes and equipment change the rhythm of service, while upgrades and unlocked locations provide goals between levels. Clear visual responses help make the flow of a busy restaurant easy to follow."
+        },
+        {
+          "heading": "My technical-art work",
+          "text": "My responsibilities included restaurant setup and animation, responsive gameplay UI and animations for supporting systems. I created and integrated particles and VFX for restaurant and gameplay presentation, with optimization work to preserve visual quality on mobile devices."
+        }
+      ]
     },
     {
       "id": "9",
