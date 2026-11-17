@@ -329,7 +329,7 @@ window.portfolio = {
     },
     {
       "id": "10",
-      "title": "AsianMerge",
+      "title": "King's Chef: Royal Merge Story",
       "category": "Game showcases",
       "description": "Area and meta-area animations, UI and effects for merge gameplay and LiveOps.",
       "tools": [],
@@ -342,10 +342,11 @@ window.portfolio = {
       "thumbnail": "https://i.vimeocdn.com/video/2227313743-aa19d3a01a7c53a9a3ad520c492ccc5b5e8962e9c6a8d8e9bffbd79c1df7c740-d_100x75?region=us",
       "videos": [
         {
-          "title": "AsianMerge — Showcase 1",
+          "title": "King's Chef: Royal Merge Story — Showcase 1",
           "url": "https://vimeo.com/1247517927"
         }
-      ]
+      ],
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.tag.royal.chef.merge&hl=en_IN"
     },
     {
       "id": "11",
