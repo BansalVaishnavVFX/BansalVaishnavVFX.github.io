@@ -65,12 +65,23 @@ window.portfolio = {
       "id": "12",
       "title": "Epic Merge: Magic Match Puzzle",
       "category": "Merge 3",
-      "description": "A magic-themed merge puzzle game. Explore Epic Merge on Google Play.",
-      "tools": [],
-      "contributions": [],
+      "description": "Responsive UI, effects and art integration for merge gameplay.",
+      "tools": [
+        "Unity UI",
+        "VFX",
+        "Shaders"
+      ],
+      "contributions": [
+        "Implemented responsive Unity UI and animations for merge gameplay and supporting content.",
+        "Created and integrated VFX and shaders for in-game presentation.",
+        "Managed art integration through production tools and pipelines.",
+        "Optimized art assets and visual effects for mobile performance.",
+        "Collaborated with artists, designers, developers and QA; used AI-assisted technical-art workflows."
+      ],
       "thumbnail": "https://play-lh.googleusercontent.com/jaEwOOSkhwvxiOXYjipOby-he0sK_vzXS5Yq8_0_ZYYSymzV23_z3n4rqYVG1m5_HUNu68tpgeD4-NWieAvvp8A=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.matchingham.mergegame&hl=en_IN",
-      "videos": []
+      "videos": [],
+      "role": "Lead Technical Artist"
     },
     {
       "id": "1",
