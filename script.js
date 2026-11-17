@@ -122,7 +122,18 @@ if (player) {
       const button = element('button', 'video-choice', String(index + 1).padStart(2, '0') + ' / ' + video.title);
       button.type = 'button'; button.addEventListener('click', () => play(video, index)); list.append(button);
     });
-    if (videos.length) play(videos[0], 0);
+    if (project.showcaseImage && safeImage(project.showcaseImage)) {
+      const artwork = element('img', 'project-showcase-image');
+      artwork.src = safeImage(project.showcaseImage);
+      artwork.alt = project.showcaseImageAlt || project.title;
+      artwork.width = 526;
+      artwork.height = 296;
+      player.classList.add('image-showcase');
+      player.replaceChildren(artwork);
+      for (const id of ['now-playing', 'video-list', 'video-link']) {
+        document.getElementById(id).hidden = true;
+      }
+    } else if (videos.length) play(videos[0], 0);
     else {
       for (const id of ['video-player', 'now-playing', 'video-list', 'video-link']) {
         document.getElementById(id).hidden = true;

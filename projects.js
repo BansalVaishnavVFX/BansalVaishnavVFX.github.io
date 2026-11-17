@@ -82,7 +82,9 @@ window.portfolio = {
       "thumbnail": "https://play-lh.googleusercontent.com/jaEwOOSkhwvxiOXYjipOby-he0sK_vzXS5Yq8_0_ZYYSymzV23_z3n4rqYVG1m5_HUNu68tpgeD4-NWieAvvp8A=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.matchingham.mergegame&hl=en_IN",
       "videos": [],
-      "role": "Lead Technical Artist"
+      "role": "Lead Technical Artist",
+      "showcaseImage": "images/epic-merge-showcase.webp",
+      "showcaseImageAlt": "Epic Merge game artwork with a tree character and a colorful island to discover"
     },
     {
       "id": "1",

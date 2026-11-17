@@ -80,3 +80,6 @@ body:has(.hero) .topbar{border-bottom-color:transparent}
 @media(max-width:700px){.about-panel{grid-template-columns:1fr;padding:22px;gap:26px}.about-content .about-intro{font-size:16px}.about-content p,.about-strengths{font-size:14px}.about-content h3{font-size:21px}.about-photo figcaption{padding:14px}}
 
 .video-player,.video-player iframe{background:#000}
+
+.video-player.image-showcase{aspect-ratio:auto;background:transparent}
+.project-showcase-image{display:block;width:100%;height:auto}
