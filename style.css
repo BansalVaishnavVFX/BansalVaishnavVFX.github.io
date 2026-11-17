@@ -83,3 +83,6 @@ body:has(.hero) .topbar{border-bottom-color:transparent}
 
 .video-player.image-showcase{aspect-ratio:auto;background:transparent}
 .project-showcase-image{display:block;width:100%;height:auto}
+
+.video-player.portrait-showcase{background:#000}
+.portrait-showcase .project-showcase-image{width:auto;max-width:100%;height:auto;max-height:680px}

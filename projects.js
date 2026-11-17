@@ -84,7 +84,9 @@ window.portfolio = {
       "videos": [],
       "role": "Lead Technical Artist",
       "showcaseImage": "images/epic-merge-showcase.webp",
-      "showcaseImageAlt": "Epic Merge game artwork with a tree character and a colorful island to discover"
+      "showcaseImageAlt": "Epic Merge game artwork with a tree character and a colorful island to discover",
+      "showcaseImageWidth": 526,
+      "showcaseImageHeight": 296
     },
     {
       "id": "1",
@@ -281,7 +283,11 @@ window.portfolio = {
       ],
       "thumbnail": "https://play-lh.googleusercontent.com/0NfysT5P5VG12_Ul-QihT6Zwu6TQNpxawc5FcWono06vE6KoKhFbEbWfw67-wfJF7TQJcG4jCBoDjI3PtYR5zZc=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.beachside.mergetown",
-      "videos": []
+      "videos": [],
+      "showcaseImage": "images/beachside-town-showcase.webp",
+      "showcaseImageAlt": "Beachside Town gameplay showing the coastal town, beach, roads and progression areas",
+      "showcaseImageWidth": 166,
+      "showcaseImageHeight": 296
     },
     {
       "id": "7",

@@ -126,9 +126,10 @@ if (player) {
       const artwork = element('img', 'project-showcase-image');
       artwork.src = safeImage(project.showcaseImage);
       artwork.alt = project.showcaseImageAlt || project.title;
-      artwork.width = 526;
-      artwork.height = 296;
+      artwork.width = project.showcaseImageWidth || 526;
+      artwork.height = project.showcaseImageHeight || 296;
       player.classList.add('image-showcase');
+      if (artwork.height > artwork.width) player.classList.add('portrait-showcase');
       player.replaceChildren(artwork);
       for (const id of ['now-playing', 'video-list', 'video-link']) {
         document.getElementById(id).hidden = true;
