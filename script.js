@@ -58,7 +58,8 @@ if (grid) {
 }
 const player = document.getElementById('video-player');
 if (player) {
-  const project = projects.find(item => item.id === new URLSearchParams(location.search).get('id'));
+  const requestedId = new URLSearchParams(location.search).get('id');
+  const project = projects.find(item => item.id === requestedId || (item.aliases || []).includes(requestedId));
   if (!project) {
     document.getElementById('project-title').textContent = 'Project not found';
     player.append(element('p', '', 'This project is unavailable. Use All work to return to the portfolio.'));

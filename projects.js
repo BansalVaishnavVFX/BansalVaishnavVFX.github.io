@@ -135,9 +135,27 @@ window.portfolio = {
         "Across the Merge 2 portfolio, built an area setup tool that turned a 4-hour manual process into a one-click workflow.",
         "Developed optimization tools across the Merge 2 workflow, improving workflow speed by almost 400%."
       ],
-      "thumbnail": "https://play-lh.googleusercontent.com/aBRLgxWbkZdfqxVD0NJdpKy8FOccun7_Wpmv4dvE6pYpbBT5Fw5wuJCTpDgHFiSe8HftnfeoYQ1NeDMBNQ--hA=s0-br30",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.gamestown.magic.merge.puzzle",
-      "videos": []
+      "thumbnail": "images/witch-world-spellcraft.webp",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.gamestown.magic.merge.puzzle&hl=en_IN",
+      "videos": [
+        {
+          "title": "Witch World: Magic Merge — Showcase 1",
+          "url": "https://vimeo.com/1247517899"
+        }
+      ],
+      "aliases": [
+        "9"
+      ],
+      "story": [
+        {
+          "heading": "Bringing the game world to life",
+          "text": "My technical-art work on Witch World focused on area and meta-area animation, together with UI and effect integration for merge gameplay and LiveOps content. These elements connect player interactions with the presentation of the world around them."
+        },
+        {
+          "heading": "From animation to production tools",
+          "text": "Alongside animation and integration, I worked on tools shared across the Merge 2 portfolio. A one-click area setup workflow replaced a four-hour manual process, while optimization tools helped speed up production. This work supported a more efficient path from art assets to playable content in Unity."
+        }
+      ]
     },
     {
       "id": "6",
@@ -313,21 +331,6 @@ window.portfolio = {
       ]
     },
     {
-      "id": "9",
-      "title": "Spell Craft",
-      "category": "Game showcases",
-      "description": "Spell Craft — video showcase.",
-      "tools": [],
-      "contributions": [],
-      "thumbnail": "https://i.vimeocdn.com/video/2227313812-9414f34b6c207c442b7b9ab02d8c6e3478dcffe69da24ec590a67ee224944259-d_100x75?region=us",
-      "videos": [
-        {
-          "title": "Spell Craft — Showcase 1",
-          "url": "https://vimeo.com/1247517899"
-        }
-      ]
-    },
-    {
       "id": "10",
       "title": "King's Chef: Royal Merge Story",
       "category": "Game showcases",
@@ -339,7 +342,7 @@ window.portfolio = {
         "Across the Merge 2 portfolio, built an area setup tool that turned a 4-hour manual process into a one-click workflow.",
         "Developed optimization tools across the Merge 2 workflow, improving workflow speed by almost 400%."
       ],
-      "thumbnail": "https://i.vimeocdn.com/video/2227313743-aa19d3a01a7c53a9a3ad520c492ccc5b5e8962e9c6a8d8e9bffbd79c1df7c740-d_100x75?region=us",
+      "thumbnail": "https://play-lh.googleusercontent.com/p0t4yeTG-VzsOBx7UMvtSmSxL9kKuwzB4EN1TBQoxbpIUzySZ8Dhvmlx_yn1vEomcTlRrXCVG4v1yvzSURXLuQ=s0-br30",
       "videos": [
         {
           "title": "King's Chef: Royal Merge Story — Showcase 1",
