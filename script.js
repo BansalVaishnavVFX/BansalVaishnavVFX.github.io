@@ -66,12 +66,15 @@ if (player) {
     document.title = project.title + ' — Bansal';
     document.getElementById('project-title').textContent = project.title;
     document.getElementById('project-category').textContent = project.category;
-    document.getElementById('project-role').textContent = project.role + ' · TheAppGuruz';
+    const role = document.getElementById('project-role');
+    role.hidden = !project.role;
+    if (project.role) role.textContent = project.role + ' · TheAppGuruz';
     document.getElementById('project-description').textContent = project.description;
     (project.tools || []).forEach(tool => document.getElementById('project-tools').append(element('span', 'tag', tool)));
     (project.contributions || []).forEach(text => document.getElementById('project-contributions').append(element('li', '', text)));
+    document.getElementById('contributions-heading').hidden = !(project.contributions || []).length;
     const resources = document.getElementById('project-resources');
-    resources.append(element('h2', '', 'Explore the game'));
+    if (project.storeUrl || project.playlistUrl) resources.append(element('h2', '', 'Explore the game'));
     if (project.storeUrl) resources.append(externalLink('View on Google Play ↗', project.storeUrl));
     if (project.playlistUrl) resources.append(externalLink('Full YouTube playlist ↗', project.playlistUrl));
     const videos = videosFor(project);

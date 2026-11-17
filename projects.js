@@ -108,7 +108,16 @@ window.portfolio = {
       ],
       "thumbnail": "https://play-lh.googleusercontent.com/BTxW1F_ZMAgKN47e2wTZW--h6_OwgiVNS0yKP2N3oRWSu-fvzUQozidaI2Z7gAOcxfdFgF0WRNQevFEIyVhHqw=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.merge.hometown",
-      "videos": []
+      "videos": [
+        {
+          "title": "Merge HomeTown: Merge Games — Showcase 1",
+          "url": "https://vimeo.com/1247517659"
+        },
+        {
+          "title": "Merge HomeTown: Merge Games — Showcase 2",
+          "url": "https://vimeo.com/1247517657"
+        }
+      ]
     },
     {
       "id": "3",
@@ -130,7 +139,12 @@ window.portfolio = {
       ],
       "thumbnail": "https://play-lh.googleusercontent.com/vRNssUZPNIB1LpayQ0VUHC8U-5tw9aBRh1uuiHpLNHYG1SsghcgYYcXYdqM88r5mgwb-gG0KjbiapCXPy_z-=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.dragontales.mergegames",
-      "videos": []
+      "videos": [
+        {
+          "title": "Tales & Dragons: Merge Puzzle — Showcase 1",
+          "url": "https://vimeo.com/1247517909"
+        }
+      ]
     },
     {
       "id": "4",
@@ -193,7 +207,24 @@ window.portfolio = {
       ],
       "thumbnail": "https://play-lh.googleusercontent.com/ibBcrKkH19ZauUlv-1eQI_YuccrI12urck_fUM8zF7ysTw4UjIl26M3I9azSbLzjJBnMt5I064FBlmFxPn5Uhg=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.gt.mergegames.mergepuzzle",
-      "videos": []
+      "videos": [
+        {
+          "title": "Once Upon a Merge — Showcase 1",
+          "url": "https://vimeo.com/1247517769"
+        },
+        {
+          "title": "Once Upon a Merge — Showcase 2",
+          "url": "https://vimeo.com/1247517858"
+        },
+        {
+          "title": "Once Upon a Merge — Showcase 3",
+          "url": "https://vimeo.com/1247517719"
+        },
+        {
+          "title": "Once Upon a Merge — Showcase 4",
+          "url": "https://vimeo.com/1247517718"
+        }
+      ]
     },
     {
       "id": "7",
@@ -238,6 +269,51 @@ window.portfolio = {
       "thumbnail": "https://play-lh.googleusercontent.com/yHLsUlLgeSNU4IDEOEqR9opWmttWRX4QhN5aiYPptuAjIrgzU64q32DhxG4pIdez8RMySp9_PP35Is0TXuqLheo=s0-br30",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.asiancooking.star.chef.cooking.games",
       "videos": []
+    },
+    {
+      "id": "9",
+      "title": "Spell Craft",
+      "category": "Game showcases",
+      "description": "Spell Craft — video showcase.",
+      "tools": [],
+      "contributions": [],
+      "thumbnail": "https://i.vimeocdn.com/video/2227313812-9414f34b6c207c442b7b9ab02d8c6e3478dcffe69da24ec590a67ee224944259-d_100x75?region=us",
+      "videos": [
+        {
+          "title": "Spell Craft — Showcase 1",
+          "url": "https://vimeo.com/1247517899"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "AsianMerge",
+      "category": "Game showcases",
+      "description": "AsianMerge — video showcase.",
+      "tools": [],
+      "contributions": [],
+      "thumbnail": "https://i.vimeocdn.com/video/2227313743-aa19d3a01a7c53a9a3ad520c492ccc5b5e8962e9c6a8d8e9bffbd79c1df7c740-d_100x75?region=us",
+      "videos": [
+        {
+          "title": "AsianMerge — Showcase 1",
+          "url": "https://vimeo.com/1247517927"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "NutSort",
+      "category": "Game showcases",
+      "description": "NutSort — video showcase.",
+      "tools": [],
+      "contributions": [],
+      "thumbnail": "https://i.vimeocdn.com/video/2227313760-9d301069280fa569d9f6ccf8df918ebaa28575354cf19693d919c3f6a14f1837-d_100x75?region=us",
+      "videos": [
+        {
+          "title": "NutSort — Showcase 1",
+          "url": "https://vimeo.com/1247517960"
+        }
+      ]
     }
   ]
 };
