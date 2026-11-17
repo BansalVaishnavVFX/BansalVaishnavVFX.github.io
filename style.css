@@ -30,13 +30,14 @@
 @media(max-width:900px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.video-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.project-grid{grid-template-columns:1fr}.video-list{grid-template-columns:1fr}.card-details{padding:22px}.fallback-note{display:block;margin-left:0}.project-page h1{font-size:38px;line-height:1.12}}
 
-/* Full-width cinematic hero. Foreground remains readable over moving footage. */
+/* Stable, uncropped background with an explicit black overlay. */
 .hero{width:100%;padding-left:max(6%,calc((100% - 1320px)/2));padding-right:max(6%,calc((100% - 1320px)/2));}
-.hero-video{position:absolute;inset:0;z-index:-2;overflow:hidden;pointer-events:none;background:#101b18 url('https://i.vimeocdn.com/video/2227313898-ef24a99108ce55e298c685d18367f1418dd37c8ee9a12fff56957fb090310f8f-d_295x166?region=us') center/cover no-repeat}
-.hero-video iframe{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:0;pointer-events:none}
-.hero:after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(8,9,11,.82),rgba(8,9,11,.5)),linear-gradient(0deg,#08090b 0%,transparent 35%,rgba(8,9,11,.2) 100%)}
+.hero-video{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:#000}
+.hero-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none;transform:none}
+.hero-video:after{content:'';position:absolute;inset:0;z-index:1;background:rgba(0,0,0,.72);pointer-events:none}
+.hero>:not(.hero-video){position:relative;z-index:1}
 .hero .eyebrow,.hero-foot{color:#c3c6c5}.hero-bottom p{color:#e0e2e1}.hero h1{text-shadow:0 3px 25px #0005}
 .hero-video-toggle{background:#08090b88;border:1px solid #ffffff50;border-radius:4px;color:var(--text);font:inherit;letter-spacing:.03em;padding:10px 14px;cursor:pointer}
 .hero-video-toggle:hover{border-color:var(--accent);color:var(--accent)}
 .hero-foot{align-items:center;gap:20px}
-@media(max-width:600px){.hero-foot{flex-wrap:wrap}.hero-video-toggle{order:3}.hero:after{background:linear-gradient(0deg,#08090b,rgba(8,9,11,.58) 55%,rgba(8,9,11,.7))}}
+@media(max-width:600px){.hero-foot{flex-wrap:wrap}.hero-video-toggle{order:3}}
