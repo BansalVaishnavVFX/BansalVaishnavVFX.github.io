@@ -21,6 +21,7 @@
     frame.setAttribute('aria-hidden', 'true');
     frame.referrerPolicy = 'strict-origin-when-cross-origin';
     host.append(frame);
+    window.preferHighestVimeoQuality(frame);
     toggle.textContent = 'Stop background video';
     toggle.setAttribute('aria-pressed', 'true');
   }

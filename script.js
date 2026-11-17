@@ -113,6 +113,7 @@ if (player) {
         const frame = element('iframe'); frame.src = source.src; frame.title = video.title + ' — ' + source.provider + ' video';
         frame.allow = 'autoplay; fullscreen; picture-in-picture; encrypted-media'; frame.allowFullscreen = true;
         frame.referrerPolicy = 'strict-origin-when-cross-origin'; player.append(frame);
+        if (source.provider === 'Vimeo') window.preferHighestVimeoQuality(frame);
         document.getElementById('video-link').append(externalLink('Watch on ' + source.provider + ' ↗', source.original), element('span', 'muted fallback-note', 'If the player is unavailable, open the video directly.'));
       } else player.append(element('p', 'muted', 'This video is currently unavailable.'));
     }

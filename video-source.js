@@ -21,6 +21,7 @@
       const hash = url.searchParams.get('h') || parts[index + 1];
       const embed = new URL('https://player.vimeo.com/video/' + id);
       if (hash && /^[a-zA-Z0-9]+$/.test(hash)) embed.searchParams.set('h', hash);
+      embed.searchParams.set('transparent', '0');
       return { provider: 'Vimeo', src: embed.href, original: url.href };
     }
     return null;
