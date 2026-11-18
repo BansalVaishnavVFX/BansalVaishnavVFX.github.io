@@ -86,3 +86,14 @@ body:has(.hero) .topbar{border-bottom-color:transparent}
 
 .video-player.portrait-showcase{background:#000}
 .portrait-showcase .project-showcase-image{width:auto;max-width:100%;height:auto;max-height:680px}
+
+/* Four capabilities, using the portfolio's existing accent palette. */
+.capabilities-section>h2{font-family:'DM Mono',monospace;font-size:14px;line-height:1.5;letter-spacing:.12em;text-transform:uppercase;text-align:center;color:var(--accent);margin:0 0 22px}
+.capabilities-panel{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:42px 12px;border:1px solid var(--line);border-radius:16px;background:#0d1316}
+.capabilities-panel article{padding:0 24px}
+.capabilities-panel article+article{border-left:1px solid var(--line)}
+.capabilities-panel svg{display:block;width:32px;height:32px;fill:none;stroke:var(--accent);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;margin-bottom:28px}
+.capabilities-panel h3{font-size:18px;line-height:1.4;margin:0 0 14px;letter-spacing:-.02em}
+.capabilities-panel p{font-size:13px;line-height:1.8;color:#a9b1b7;margin:0}
+@media(max-width:900px){.capabilities-panel{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.capabilities-panel article{padding:24px}.capabilities-panel article:nth-child(3){border-left:0}.capabilities-panel article:nth-child(n+3){border-top:1px solid var(--line)}}
+@media(max-width:520px){.capabilities-panel{grid-template-columns:1fr}.capabilities-panel article+article{border-left:0;border-top:1px solid var(--line)}.capabilities-panel svg{margin-bottom:20px}}
